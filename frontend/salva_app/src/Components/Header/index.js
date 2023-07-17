@@ -22,9 +22,9 @@ function Header() {
             <li>
               <NavLink to="/chamado" className="nav-link link-dark px-0">Chamado</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="/viagens" className="nav-link link-dark px-0">Viagens</NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink to="/estatisticas" className="nav-link link-dark px-0">Estatísticas</NavLink>
             </li>

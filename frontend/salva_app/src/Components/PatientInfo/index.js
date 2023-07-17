@@ -29,7 +29,7 @@ const PatientInfo = ({ onBack, onNext }) => {
   };
 
   const handleAgeChange = (e) => {
-    setAge(e.imaginaryTarget.value);
+    setAge(e.target.value);
   };
 
   const handleBloodTypeChange = (e) => {
