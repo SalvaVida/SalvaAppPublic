@@ -8,6 +8,10 @@ Descrição breve do projeto em uma ou duas frases.
 
 Este projeto é uma aplicação web/microserviço/outra funcionalidade que utiliza o Docker para facilitar o ambiente de desenvolvimento e implantação. O Docker permite criar contêineres isolados e portáteis, fornecendo uma maneira consistente de executar o projeto em diferentes ambientes.
 
+# Frontend
+
+Requer npm e React instalado. Instale as dependências com `npm install` e execute o servidor com `npm start`.
+
 # Backend
 
 ## Pré-requisitos
