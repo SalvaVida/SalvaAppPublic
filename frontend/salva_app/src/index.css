@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.map-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar {
+  /* background-color: rgba(35, 55, 75, 0.9); */
+  /* color: #fff;
+  padding: 6px 12px; */
+  /* font-family: monospace; */
+  z-index: 1;
+  position: absolute;
+  /* margin: 12px;
+  border-radius: 4px; */
+}
+
+.debug {
+  top: 0;
+  left: 0;
+}
+
+.ambulances {
+  top: 130px;
+  /* left: 0; */
+}
+
+.search {
+  top: 0;
+  left: 420px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search input{
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.placeholder_image {
+  height: 100px;
+  width: 150px;
+  background-color: lightblue;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  margin: 0 10px 0 0;
+}
+
+.option{
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.active {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.mapboxgl-ctrl-attrib, .mapboxgl-control-container {
+  display: none;
+}

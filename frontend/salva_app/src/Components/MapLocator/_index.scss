@@ -1,0 +1,13 @@
+.mapboxgl-ctrl-attrib, .mapboxgl-control-container {
+    display: none;
+}
+
+.map-container {
+    height: calc(100vh - 80px - 110px - 44px - 24px);
+    width: calc(100vw - 2.5rem);
+}
+
+.confirmButton {
+    width: 300px;
+    height: 44px;
+}

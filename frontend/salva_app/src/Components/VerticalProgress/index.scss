@@ -1,0 +1,35 @@
+.vertical-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #606060;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+//   .content {
+//     /* Add any additional styling for the list item content */
+//   }
+  
+  .line {
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    width: 2px;
+    background-color: #bbbbbb;
+    height: 32px;
+    z-index: -99;
+  }
+  

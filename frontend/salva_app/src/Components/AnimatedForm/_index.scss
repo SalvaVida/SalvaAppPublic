@@ -1,0 +1,30 @@
+// .animated-form {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 100vh;
+//   }
+  
+  .animated-form .form-group {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  
+  .animated-form label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    // transition: opacity .125s ease-in;
+    color: gray;
+  }
+  
+//   .animated-form label.focused {
+//     color: blue;
+//   }
+  
+  .animated-form input {
+    padding: 18px 0 2px 10px;
+    font-size: 16px;
+  }
+  
